@@ -10,6 +10,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Utilities.readfiledata;
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class FirstTest extends BaseC {
 
@@ -29,6 +30,7 @@ public class FirstTest extends BaseC {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath(pr2.getProperty("Login_btn"))).click();
 		Thread.sleep(10000);
+		System.out.println("hello");
 	}
 	
 //	@Test(dataProviderClass=readfiledata.class,dataProvider="uidpwd")

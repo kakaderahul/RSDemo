@@ -53,6 +53,7 @@ public class BaseC {
 		}
 		@AfterMethod
 		public void teardown() {
+			System.out.println("hello");
 			
 			driver.close();
 			
