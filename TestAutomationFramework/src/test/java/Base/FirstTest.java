@@ -31,6 +31,10 @@ public class FirstTest extends BaseC {
 		driver.findElement(By.xpath(pr2.getProperty("Login_btn"))).click();
 		Thread.sleep(10000);
 		System.out.println("hello");
+		System.out.println("hello");
+		System.out.println("hello");
+		System.out.println("hello");
+		System.out.println("hello");
 	}
 	
 //	@Test(dataProviderClass=readfiledata.class,dataProvider="uidpwd")
